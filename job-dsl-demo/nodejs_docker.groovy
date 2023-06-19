@@ -1,4 +1,4 @@
-jog('nodejs-docker-example'){
+job('nodejs-docker-example'){
     scm {
         git('https://github.com/JorgeRompiche/nodejs-app-demo.git') { node -> 
             node / gitConfigName('Jorge Rompiche')
